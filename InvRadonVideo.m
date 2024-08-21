@@ -9,7 +9,7 @@ function InvRadonVideo
     G = im(:,:,2);
     B = im(:,:,3);
     
-    r = VideoWriter(strcat(filename,'_InvRad.mp4'),'MPEG-4');
+    r = VideoWriter('output.mp4','MPEG-4');
     
     open(r);
     
