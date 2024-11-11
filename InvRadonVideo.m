@@ -2,7 +2,7 @@ function InvRadonVideo
    
     filename  = 'input';
     im = double(imread(strcat(filename,'.jpg')))/255; % IMAGE
-    num_frames = 360;
+    num_frames = 180;
     s = size(im,1);
     
     R = im(:,:,1);
